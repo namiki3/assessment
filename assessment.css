@@ -1,0 +1,32 @@
+body,background-color{
+    /* 横長で虹色を作る */
+    background: linear-gradient(to right, rgb(255, 0, 200), rgb(255, 238, 0), rgb(0, 221, 255), rgb(140, 0, 255),rgb(255, 0, 200)) 0% center/200%;
+    animation: background-color 2s linear infinite;
+    color: aliceblue;
+    mix-blend-mode:difference
+}
+   @keyframes background-color {
+    /* backgroundを移動させる */
+    100% { background-position-x: 200%; }
+    
+   }
+  
+
+
+
+body{
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+ button{
+  padding: 5px 20px;
+  background-color: darkmagenta;
+  border-style: none;
+  color: greenyellow;
+ } 
+ input{
+  height: 20px;
+ }
+ 
+ 
