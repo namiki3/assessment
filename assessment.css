@@ -2,7 +2,7 @@ body,background-color{
     /* 横長で虹色を作る */
     background: linear-gradient(to right, rgb(255, 0, 200), rgb(255, 238, 0), rgb(0, 221, 255), rgb(140, 0, 255),rgb(255, 0, 200)) 0% center/200%;
     animation: background-color 2s linear infinite;
-    color: aliceblue;
+    color:white;
     mix-blend-mode:difference
 }
    @keyframes background-color {
@@ -12,21 +12,32 @@ body,background-color{
    }
   
 
+.navbar-brand{
+  font-family: "Rampart One", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  font-style: normal;
+     width: auto;
+    margin-right:auto;
+    margin-left:auto;
+   
 
+}
 
 body{
-    width: 500px;
-    margin-right: auto;
-    margin-left: auto; 
+    width: 50%;
+    margin-right:auto;
+    margin-left:auto; 
+
+  
 }
+
+
  button{
-  padding: 5px 20px;
-  background-color: darkmagenta;
+  background-color: white;
   border-style: none;
-  color: greenyellow;
+  color: white;
  } 
- input{
-  height: 20px;
- }
+ 
  
  
