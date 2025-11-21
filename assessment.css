@@ -16,6 +16,12 @@ background-color {
     }
 
 }
+header{
+width: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 
 .navbar-brand {
     font-family: "Rampart One", sans-serif;
