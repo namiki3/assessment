@@ -1,43 +1,34 @@
-body,background-color{
+body,
+
+background-color {
     /* 横長で虹色を作る */
-    background: linear-gradient(to right, rgb(255, 0, 200), rgb(255, 238, 0), rgb(0, 221, 255), rgb(140, 0, 255),rgb(255, 0, 200)) 0% center/200%;
+    background: linear-gradient(to right, rgb(255, 0, 200), rgb(255, 238, 0), rgb(0, 221, 255), rgb(140, 0, 255), rgb(255, 0, 200)) 0% center/200%;
     animation: background-color 2s linear infinite;
-    color:white;
-    mix-blend-mode:difference
+    color: white;
+    mix-blend-mode: difference
 }
-   @keyframes background-color {
+
+@keyframes background-color {
+
     /* backgroundを移動させる */
-    100% { background-position-x: 200%; }
-    
-   }
-  
-
-.navbar-brand{
-  font-family: "Rampart One", sans-serif;
-  font-weight: 300;
-  font-size: 40px;
-  font-style: normal;
-     width: auto;
-    margin-right:auto;
-    margin-left:auto;
-   
+    100% {
+        background-position-x: 200%;
+    }
 
 }
 
-body{
-    width: 50%;
-    margin-right:auto;
-    margin-left:auto; 
-
-  
+.navbar-brand {
+    font-family: "Rampart One", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    font-style: normal;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-
- button{
-  background-color: white;
-  border-style: none;
-  color: white;
- } 
- 
- 
- 
+button {
+    background-color: white;
+    border-style: none;
+    color: white;
+}
